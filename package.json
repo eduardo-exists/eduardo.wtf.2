@@ -57,11 +57,12 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "email": "mjml -w ./email/template.mjml -o ./email/output.html",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
